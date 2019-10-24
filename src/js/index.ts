@@ -81,7 +81,7 @@ buttonElement.addEventListener("click", () => {
     }
     else if (bilType == "Elbil")
     {
-        bilAfgiftResultat = BilAfgift(inputPris);
+        bilAfgiftResultat = ElBilAfgift(inputPris);
     }
     else 
     {
